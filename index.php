@@ -8,7 +8,7 @@ require_once 'User.php';
 $token = "8859260442:AAFsBbf5YuFofc3CNarsseYQ_DdAfRf9ADI";
 
 // 1. Dasturda faqat shu yerda bitta va yagona kabel tortiladi (Singleton)
-$db = Database::getInstance('127.0.0.1', '5433', 'employee_db', '', '');
+$db = Database::getInstance('', '', '', '', '');
 
 // 2. Qolgan xodimlar shu yagona ulanishni ishlatadi
 $finance = new Finance($db);
